@@ -36,7 +36,6 @@ export default function Header() {
     let key = "57b2c40fdae71a6ba41d72685e3226e2";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${key}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
-    console.log("Hello");
   }
 
   function updateQuery(event) {
