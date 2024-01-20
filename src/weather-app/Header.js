@@ -14,7 +14,7 @@ export default function Header() {
     humidity: 69,
     wind: 6.5,
     temperature: 14,
-    icon: `https://openweathermap.org/img/wn/{01d}.png`,
+    icon: `https://openweathermap.org/img/wn/01d.png`,
     loaded: false,
   });
 
