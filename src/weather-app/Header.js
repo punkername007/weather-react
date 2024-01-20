@@ -9,7 +9,7 @@ export default function Header() {
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({
     city: "Paris",
-    date: moment().format("dddd HH:MM"),
+    date: moment().format("dddd HH:mm"),
     weather: "moderate rain",
     humidity: 69,
     wind: 6.5,
